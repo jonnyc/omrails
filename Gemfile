@@ -10,6 +10,9 @@ group :production do
 	gem 'pg'
 end
 
+# set up the production and development envs
+# this was done for Heroku
+
 group :development, :test do
 	gem 'sqlite3'
 end

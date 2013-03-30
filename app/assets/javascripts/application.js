@@ -15,3 +15,9 @@
 //= require jquery.masonry.min.js
 //= require bootstrap
 //= require_tree .
+
+$(function() {
+	$('#alert_msg').on('click',function() {
+		$(this).slideUp('slow');
+	});        
+});
